@@ -51,7 +51,7 @@ import { BsTelephone } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { MdPhoneIphone } from "react-icons/md";
 
-const Footer = () => {
+const Footer = () => { 
   return (
     <div className="back3 text-white  sm:px-4 md:px-6 lg:px-8 flex flex-wrap justify-between">
       <div className="text-2xl flex w-full sm:w-auto">
