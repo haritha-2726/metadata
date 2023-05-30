@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.back {
+  background: url("https://skaled.com/wp-content/uploads/2021/07/jeshoots-com-hN3t9Wj-bNs-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+.font-houschka-medium {
+  font-family: 'Houschka Medium', sans-serif;
+}
+
+.back2 {
+  background: url("https://images.squarespace-cdn.com/content/v1/5da4d97e55a9455e3f95b47b/1663882025250-Q5DMSWXOI3MRQYEQEFMP/3d-rendering-digital-binary-data-microchip-with-glow-circuit-board-background.jpg?format=2500w") no-repeat center center fixed; ;
+  background-size: cover;
+  min-height: vh;
+}
+.back3 {
+  background: url("https://media.istockphoto.com/id/1335422806/vector/dark-blue-dynamic-gradient-lines-abstract-background-technology-design.jpg?s=612x612&w=0&k=20&c=dEEQOWFw5YAt2L8GUIVdVlPRqsBV2UZZ3LE8gAOb_iM=") no-repeat center center fixed; ;
+  background-size: cover;
+  min-height: vh;
+}
+.back4 {
+  background: url("https://png.pngitem.com/pimgs/s/261-2610171_enteris-biopharma-footer-swoosh-transparent-white-swoosh-png.png") no-repeat center center fixed; ;
+  background-size: cover;
+  min-height: vh;
+}
+.vertical-line {
+  border-left: 1px solid #fff;
+  height: 25px;
+  margin: 0 10px;
+}
+
+
+ 
+.styling{
+  color:#050505;
+color:RGB(5, 5, 5);
+background-color:#000000;
+background-color:RGBA(0, 0, 0, 0);
+   
+ 
+ 
+}
+
+https://images.squarespace-cdn.com/content/v1/5da4d97e55a9455e3f95b47b/1663882025250-Q5DMSWXOI3MRQYEQEFMP/3d-rendering-digital-binary-data-microchip-with-glow-circuit-board-background.jpg?format=2500w
