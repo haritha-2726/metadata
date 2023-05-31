@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Title = () => (
   <a href="/">
-    <img className="hover:animate-bounce h-32" alt="logo" src="https://thumbs.dreamstime.com/b/mis-letter-logo-design-white-background-creative-circle-concept-252937804.jpg" />
+    <img className=" h-32" alt="logo" src="https://thumbs.dreamstime.com/b/mis-letter-logo-design-white-background-creative-circle-concept-252937804.jpg" />
   </a>
 );
 
