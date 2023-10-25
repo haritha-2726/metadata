@@ -2,8 +2,8 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div>
-      <div id="section-3" className="flex items-center justify-center pt-5 md:pt-10 pb-6">
+    <div className=' pt-[60px]'>
+      <div id="section-3" className="flex items-center justify-center pt-[60px] md:pt-10 pb-6">
         <h1 className="font-thin text-2xl md:text-5xl" style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
           Our Services
         </h1>

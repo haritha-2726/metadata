@@ -9,7 +9,7 @@ const AboutUs = () => {
     <>
      
    
-      <div  id="section-2" className='flex items-center justify-center pt-[95px] pb-6 '>
+      <div  id="section-2" className='flex items-center justify-center pt-[125px] pb-6 '>
       <div className='w-full md:w-1/2 text-center'>
       <div
             style={{

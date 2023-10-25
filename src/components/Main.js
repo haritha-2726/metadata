@@ -1,8 +1,12 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom" 
+ 
+ 
+ 
 
 const Main = () => {
+   ;
   const handleClickScroll = () => {
     const element = document.getElementById('section-2');
     if (element) {
@@ -10,10 +14,13 @@ const Main = () => {
       element.scrollIntoView({ behavior: 'smooth' });
 
     }
+    
   };
   return (
-    <div className='flex items-center justify-center  pt-[60px]'>
+    <div className='flex items-center justify-center  pt-[60px]'    >
+       
     <div className='p-8 text-center flex flex-col items-center'>
+     
     <h1 className='text-[40px] text-white md:w-[600px] font-semibold pb-3 font-houschka-medium relative  ' style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
        MDIS
       <div className='w-16 h-1 bg-orange-500 absolute bottom-0 left-1/2 transform -translate-x-1/2 ' ></div>
