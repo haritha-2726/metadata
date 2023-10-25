@@ -11,8 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Adjust the z-index value as needed */
+  background-color: #fff; /* Set the background color as needed */
+  /* Other styling for your header */
+}
+.fixed-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  padding-top: 120px;  
+}
 .back {
-  background: url("https://skaled.com/wp-content/uploads/2021/07/jeshoots-com-hN3t9Wj-bNs-unsplash.jpg") no-repeat center center fixed;
+  background: url("https://img.freepik.com/free-photo/team-work-process-young-business-managers-crew-working-with-new-startup-project-labtop-wood-table-typing-keyboard-texting-message-analyze-graph-plans_1253-799.jpg?w=1800&t=st=1698013158~exp=1698013758~hmac=6b9a9a737b7a1c577e84327d06bc1191b7046652168afd51416639f1d15224dd") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
 }
@@ -26,10 +49,9 @@ code {
   min-height: vh;
 }
 .back3 {
-  background: url("https://media.istockphoto.com/id/1335422806/vector/dark-blue-dynamic-gradient-lines-abstract-background-technology-design.jpg?s=612x612&w=0&k=20&c=dEEQOWFw5YAt2L8GUIVdVlPRqsBV2UZZ3LE8gAOb_iM=") no-repeat center center fixed; ;
-  background-size: cover;
-  min-height: vh;
+  background-color:rgb(204, 85, 0);   /*rgb(204, 85, 0) #A0522D*/
 }
+
 .back4 {
   background: url("https://png.pngitem.com/pimgs/s/261-2610171_enteris-biopharma-footer-swoosh-transparent-white-swoosh-png.png") no-repeat center center fixed; ;
   background-size: cover;
@@ -48,9 +70,28 @@ color:#050505;
 color:RGB(5, 5, 5);
 background-color:#000000;
 background-color:RGBA(0, 0, 0, 0);
-   
- 
  
 }
+.border-highlighted {
+  border: 2px solid yellow; /* You can customize the border style */
+}
+
+.zoom-image {
+  transform: scale(1.0);  
+  transition: transform 0.1s ease; /* Add a smooth transition effect */
+}
+ 
+ 
+ 
+
+.border-hover:hover {
+  border-color: rgb(248 113 113);  
+}
+
+ 
+
+
+/*https://skaled.com/wp-content/uploads/2021/07/jeshoots-com-hN3t9Wj-bNs-unsplash.jpg*/
+ 
 
  

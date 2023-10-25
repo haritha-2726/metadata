@@ -1,35 +1,45 @@
-import Location from "./Location";
+ 
 import React from 'react';
+ 
 
 const AboutUs = () => {
+   
+  
   return (
     <>
-      <div className='back2'>
-        <div className='flex flex-col p-6 md:p-36'>
-          <h1 className='text-white font-thin text-2xl md:text-5xl'>About MIS</h1>
-          <p className='text-white font-serif text-2xl md:text-5xl'>IT Recruitment Specialist - Passion and Expertise</p>
-        </div>
+     
+   
+      <div  id="section-2" className='flex items-center justify-center pt-[95px] pb-6 '>
+      <div className='w-full md:w-1/2 text-center'>
+      <div
+            style={{
+              boxShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)', // Add shadow
+              padding: '20px', // Add padding to create space around the content
+              border: '1px solid #ccc', // Add border for bounding box
+              borderRadius: '10px',
+               // Add border radius for rounded corners
+            }}> 
+      <h1 className='text-[40px]   md:w-[600px] font-semibold pb-3 font-houschka-medium relative '  style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }} >
+         Welcome to MDIS
+      <div className='w-[80px] h-1 bg-orange-500 absolute bottom-0 left-1/2 transform -translate-x-1/2 ' ></div>
+    </h1>
+    
+       
+     <p className='md:w-[650px] text-[22px] pt-5 pb-6 mx-auto  text-left' >
+      We're your partner for all your IT needs, from helping you choose the right technology to implementing and managing complex systems. We'll work with you to understand your challenges and develop custom solutions that meet your specific needs.  We believe that technology should be a force for good in the world. That's why we're passionate about helping businesses use IT to overcome their challenges and achieve their goals. Our team of experts has the knowledge and experience to help you succeed in any industry. We don't just provide IT services. We build relationships with our clients and become trusted partners. We'll work with you to understand your business goals and develop IT solutions that help you achieve them. We believe that the best solutions are developed through collaboration. That's why we work closely with our clients and partners to understand their needs and develop solutions that meet everyone's goals. </p>    
+      <div className="w-full border-t border-gray-400 mt-5"></div>
+        </div>  
       </div>
-
-      <div className='flex flex-col md:flex-row'>
-        <div className='p-6 md:p-25 w-full md:w-1/2'>
-          <h1 className='text-2xl md:text-4xl font-bold'>Who We Are</h1>
-          <p className='pt-3 md:pt-5'>We are IT Recruitment Specialists driven by our passion and expertise in connecting exceptional talent with outstanding opportunities. We take great pride in our role as a trusted partner for both job seekers and employers in the IT industry.</p>
-          <p className='pt-3 md:pt-5'>As a US-based IT consultancy, we have a comprehensive network of industry contacts and a vast pool of qualified candidates. Leveraging our extensive knowledge and experience, we streamline the recruitment process, ensuring that our clients have access to the best IT talent available. Whether it's a permanent position, contract role, or project-based assignment, we have the expertise to identify the right candidates for every requirement.</p>
-          <p className='pt-3 md:pt-5'>Our approach is rooted in building long-term relationships with both clients and candidates. We take the time to understand the unique needs and aspirations of individuals and businesses, enabling us to make meaningful connections that drive success. Our team of dedicated professionals is committed to providing exceptional service, maintaining open lines of communication, and delivering results that exceed expectations.</p>
-          <div className='pt-3 md:pt-5'>
-            <p>We invest in the professional development of our candidates, providing them with guidance, resources, and training opportunities. This commitment to candidate development ensures that we present highly skilled and motivated individuals who are ready to make an immediate impact in your organization.</p>
-          </div>
-        </div>
-
-        <div className='flex justify-center items-center w-full md:w-1/2'>
-          <div className='w-3/4 md:w-1/2'>
-            <Location />
-          </div>
-        </div>
       </div>
+       
     </>
   );
 };
 
 export default AboutUs;
+
+
+   
+          
+
+

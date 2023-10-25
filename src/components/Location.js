@@ -10,8 +10,8 @@ const Location = () => {
  
         <h1 className='flex gap-2 text-4xl font-bold'><span><HiLocationMarker/> </span>Location</h1>
         <p className=' pl-4 pt-4' >Metadata Integrated Solutions</p>
-        <p className='pl-4'> 522 W Riverside Ave. Suite N</p>
-        <p className='pl-4'>Spokane, Washington 99201</p>
+        <p className='pl-4'>  2108 N ST; </p>
+        <p className='pl-4'>Sacramento, California 95816</p>
     </div>
     <div>
     <h1 className='flex gap-2 text-4xl font-bold pt-4'><span><MdOutlineContactPhone/> </span>Contact</h1>

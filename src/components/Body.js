@@ -3,10 +3,8 @@ import Main from './Main'
 
 const Body = () => {
   return (
-    <div className='back'> 
+    <div id="section-1" className='back content'> 
     <Main/>
-   
-      
     </div>
   )
 }
