@@ -4,9 +4,7 @@ import  back from "../images/backgroundimage.jpeg";
 
 const Body = () => {
   const mainStyle = {
-    backgroundImage: `url(${back})`,
-    
-    backgroundImage: `url(${back})`,
+    backgroundImage: `url(${back})`, 
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover', // Corrected property name

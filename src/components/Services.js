@@ -11,7 +11,7 @@ const Services = () => {
 
       <div className=" flex flex-wrap">
         <div className="w-full md:w-1/3 p-4">
-          <div className="border p-4 rounded-lg shadow-md border-hover">
+          <div className="border p-4 rounded-lg shadow-md border-hover service-boxx">
             <h1 className="font-bold text-xl md:text-2xl text-center">IT Staffing Solutions</h1>
             <p className="pt-4 text-base md:text-lg"> <span className=' font-semibold'>  IT Talent Sourcing:  </span>We specialize in sourcing top-tier IT talent to meet your specific needs. We have an extensive network to find the right fit for your organization. </p>
             <p  className='pt-1 text-base md:text-lg'> <span className=' font-semibold'> Permanent and Temporary Staffing:</span> We offer both permanent and temporary staffing solutions. Whether you need long-term team members or short-term experts for project-based work, we can match you with the best candidates.</p>
@@ -26,7 +26,7 @@ const Services = () => {
         
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="border p-4 rounded-lg shadow-md border-hover">
+          <div className="border p-4 rounded-lg shadow-md border-hover service-boxx">
             <h1 className="font-bold text-xl md:text-2xl text-center">Project Consulting:</h1>
             <p className="pt-4 text-base md:text-lg"> <span className=' font-semibold'>  Project Planning and Strategy  </span>We work with you to plan and strategize IT projects, aligning them with your business goals. Our experts can help you define project scopes,  and deliverables.
  </p>
@@ -40,7 +40,7 @@ const Services = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="border p-4 rounded-lg shadow-md border-hover">
+          <div className="border p-4 rounded-lg shadow-md border-hover service-boxx">
           <h1 className="font-bold text-xl md:text-2xl text-center">Client Collaboration</h1>
             <p className="pt-4 text-base md:text-lg"> <span className=' font-semibold'>  Requirements Analysis: </span>We begin every collaboration by thoroughly analyzing your business requirements. This in-depth understanding forms the foundation of our solution design.
  </p>
@@ -56,7 +56,7 @@ const Services = () => {
           {/* Empty column for centering */}
         </div>
         <div className="w-full md:w-1/3 p-4  ">
-          <div className="border p-4 rounded-lg shadow-md border-hover">
+          <div className="border p-4 rounded-lg shadow-md border-hover service-boxx">
             <h1 className="font-bold text-xl md:text-2xl text-center">Why Choose Us:</h1>
             <p className="pt-4 text-base md:text-lg"> <span className=' font-semibold'>  Expertise and Experience:  </span> With years of experience and a team of skilled professionals, we bring expertise to every project. Our track record of successful projects speaks for itself.
  </p>

@@ -27,7 +27,7 @@ const Main = () => {
     </h1>
         
       <h1 className='text-[25px] text-white md:w-[600px] font-semibold pb-3 font-houschka-medium pt-6    '  style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>Without change there is no innovation, creativity, or incentive for improvement. We initiate that change, that will create a better opportunity to manage the change that is inevitable.</h1>
-      <p className='md:w-[650px] text-[22px] text-white pb-6 ' >We Take bold steps to define the future. We work with ambitious clients who want to define the future, innovate the future, adapt to the future and not hide from it.
+      <p className='md:w-[650px] text-[22px] text-white pb-6 backdrop-blur-sm  ' >We Take bold steps to define the future. We work with ambitious clients who want to define the future, innovate the future, adapt to the future and not hide from it.
 </p>
  
  

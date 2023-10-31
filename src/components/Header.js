@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
-import React  from 'react';
+import React from 'react';
 
 export const Title = () => (
   <a href="/" className=" ">
     <img
-      className="h-[160px]"  
+      className="h-[160px]"
       alt="logo"
       src={logo}
-      style={{ width: 'auto', maxHeight: '100px' }}  
+      style={{ width: 'auto', maxHeight: '100px' }}
     />
   </a>
 );
@@ -36,14 +36,13 @@ export const HeaderComponent = () => {
         <Title />
         <Titlee />
       </div>
-      <div className="flex flex-wrap md:flex-nowrap">
+      <div className="flex flex-wrap">
         <ul className="flex">
-           
           <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-2')}>
             <Link to="/aboutus">About</Link>
           </li>
           <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-5')}>
-            <Link to="/whoweare">Who We Are </Link>
+            <Link to="/whoweare">Who We Are</Link>
           </li>
           <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-3')}>
             <Link to="/services">Services</Link>
