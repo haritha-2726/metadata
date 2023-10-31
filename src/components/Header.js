@@ -38,11 +38,12 @@ export const HeaderComponent = () => {
       </div>
       <div className="flex flex-wrap md:flex-nowrap">
         <ul className="flex">
-          <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-1')}>
-            <Link to="/">Home</Link>
-          </li>
+           
           <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-2')}>
             <Link to="/aboutus">About</Link>
+          </li>
+          <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-5')}>
+            <Link to="/whoweare">Who We Are </Link>
           </li>
           <li className="px-4 md:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-3')}>
             <Link to="/services">Services</Link>

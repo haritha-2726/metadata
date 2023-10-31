@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Contactus from './components/Contactus';
 // import Footer from './components/Footer';
 import Base from "./components/Base"
+import Whoweare from './components/Whoweare';
 
 const AppLayout = () => {
   return (
@@ -28,6 +29,7 @@ const AppLayout = () => {
         <Route path="/contactus" element={<Contactus/>} />
       </Routes> */}
       <Aboutus/>
+      <Whoweare/>
       <Services/>
       <Contactus/>
       <Base/>
