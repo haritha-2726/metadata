@@ -30,7 +30,7 @@ const AppLayout = () => {
       </Routes> */}
       <Aboutus/>
       <Whoweare/>
-      <Services/>
+      <Services  />
       <Contactus/>
       <Base/>
        

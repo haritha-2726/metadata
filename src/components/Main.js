@@ -6,16 +6,22 @@ import {Link} from "react-router-dom"
  
 
 const Main = () => {
-   ;
-  const handleClickScroll = () => {
-    const element = document.getElementById('section-2');
-    if (element) {
-     
-      element.scrollIntoView({ behavior: 'smooth' });
-
-    }
     
-  };
+  const handleClickScroll = (offset) => {
+  const element = document.getElementById('section-2');
+  if (element) {
+    const options = {
+      behavior: 'smooth'
+    };
+
+    if (offset) {
+      options.top = element.getBoundingClientRect().top + window.pageYOffset - offset;
+    }
+
+    element.scrollIntoView(options);
+  }
+};
+
   return (
     <div className='flex items-center justify-center  pt-[60px]'    >
        

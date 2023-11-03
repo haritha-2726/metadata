@@ -5,22 +5,22 @@ import { TfiEmail } from "react-icons/tfi";
 
 const Address = () => {
   return (
-    <div className=" flex-wrap hidden md:flex   items-center">
+    <div className=" hidden  flex-wrap md:flex md:flex-row pb-[69px] items-center">
       <div className="w-full md:w-1/3 p-4">
-        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full">
+        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full flex flex-col">
           <div className="flex items-center justify-center mb-4">
             <TbMapSearch className="text-[50px]" />
           </div>
           <p className="pt-4 text-base md:text-lg">
             <h1>Address</h1>
-            <p>2108 N ST, Sacramento</p>
+            <p>2108 N ST,  </p>
             <p>California, 95816</p>
           </p>
         </div>
       </div>
 
       <div className="w-full md:w-1/3 p-4">
-        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full">
+        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full flex flex-col">
           <div className="flex items-center justify-center mb-4">
             <FiPhoneCall className="text-[50px]" />
           </div>
@@ -33,7 +33,7 @@ const Address = () => {
       </div>
 
       <div className="w-full md:w-1/3 p-4">
-        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full">
+        <div className="border p-4 rounded-lg shadow-md border-hover text-center h-full flex flex-col">
           <div className="flex items-center justify-center mb-4">
             <TfiEmail className="text-[55px]" />
           </div>

@@ -6,7 +6,7 @@ import { BsTelephone, BsFillHouseAddFill } from 'react-icons/bs';
 
 const Base = () => {
   return (
-    <div className="bg-gray-900 text-white p-4">
+    <div className="bg-gray-900 text-white p-4 ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div>
           <div className="flex items-center">

@@ -1,20 +1,24 @@
-import React from 'react'
-import Main from './Main'
-import  back from "../images/backgroundimage.jpeg";
+import React from 'react';
+import Main from './Main';
+import back from '../images/backgroundimage.jpeg';
 
 const Body = () => {
   const mainStyle = {
-    backgroundImage: `url(${back})`, 
+    backgroundImage: `url(${back})`,
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover', // Corrected property name
-    minHeight: '100vh',  
+    backgroundSize: 'cover',
+    minHeight: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   };
-  return (
-    <div id="section-1" className=' content' style={mainStyle}> 
-    <Main/>
-    </div>
-  )
-}
 
-export default Body
+  return (
+    <div id="section-1" className=" " style={mainStyle}>
+      <Main />
+    </div>
+  );
+};
+
+export default Body;
