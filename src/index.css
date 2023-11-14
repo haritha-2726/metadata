@@ -34,29 +34,17 @@ code {
 .content {
   padding-top: 120px;  
 }
-.back {
-  background: url("https://images.businessnewsdaily.com/app/uploads/2022/04/04074553/1554244010.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  min-height: 100vh;
-}
+ 
 .font-houschka-medium {
   font-family: 'Houschka Medium', sans-serif;
 }
 
-.back2 {
-  background: url("https://images.squarespace-cdn.com/content/v1/5da4d97e55a9455e3f95b47b/1663882025250-Q5DMSWXOI3MRQYEQEFMP/3d-rendering-digital-binary-data-microchip-with-glow-circuit-board-background.jpg?format=2500w") no-repeat center center fixed; ;
-  background-size: cover;
-  min-height: vh;
-}
+ 
 .back3 {
   background-color:rgb(204, 85, 0);   /*rgb(204, 85, 0) #A0522D*/
 }
 
-.back4 {
-  background: url("https://png.pngitem.com/pimgs/s/261-2610171_enteris-biopharma-footer-swoosh-transparent-white-swoosh-png.png") no-repeat center center fixed; ;
-  background-size: cover;
-  min-height: vh;
-}
+ 
 .vertical-line {
   border-left: 1px solid #fff;
   height: 25px;
@@ -240,3 +228,64 @@ ul li {
   color: #007bff;
 }
 
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.service-box {
+  padding: 16px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-box:hover {
+  background: #275084;
+}
+
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon .logo {
+  border-radius: 50%;
+  display: block;
+  margin-right: 20px; /* Add spacing between image and h1 */
+  width: 90px; /* Adjust image width as needed */
+  transition: width 0.3s ease; /* Add a smooth transition effect for image width */
+}
+
+.service-box:hover .service-icon .logo {
+  width: 0; /* Reduce image width to hide it when hovering */
+}
+
+.service-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+   
+}
+.service-box:hover .service-title {
+  color: white; /* Change text color to white when hovering */
+}
+
+.service-details {
+  display: none;
+}
+
+.service-box:hover .service-details {
+  display: block;
+  padding: 0 16px;
+  color:white
+}
+ 

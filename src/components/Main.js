@@ -23,17 +23,17 @@ const Main = () => {
 };
 
   return (
-    <div className='flex items-center justify-center  pt-[60px]'    >
+    <div className='flex items-center justify-center  pt-[60px]' style={{position: 'relative', zIndex:2}}>
        
     <div className='p-8 text-center flex flex-col items-center'>
      
-    <h1 className='text-[40px] text-white md:w-[600px] font-semibold pb-3 font-houschka-medium relative  ' style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
-       MDIS
+    {/* <h1 className='text-[40px] text-white md:w-[600px] font-semibold pb-3 font-houschka-medium relative  ' style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
+       Metadata Integrated Solutions
       <div className='w-16 h-1 bg-orange-500 absolute bottom-0 left-1/2 transform -translate-x-1/2 ' ></div>
-    </h1>
+    </h1> */}
         
       <h1 className='text-[25px] text-white md:w-[600px] font-semibold pb-3 font-houschka-medium pt-6    '  style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>Without change there is no innovation, creativity, or incentive for improvement. We initiate that change, that will create a better opportunity to manage the change that is inevitable.</h1>
-      <p className='md:w-[650px] text-[22px] text-white pb-6 backdrop-blur-sm  ' >We Take bold steps to define the future. We work with ambitious clients who want to define the future, innovate the future, adapt to the future and not hide from it.
+      <p className='md:w-[650px] text-[22px] text-white pb-6    ' >We Take bold steps to define the future. We work with ambitious clients who want to define the future, innovate the future, adapt to the future and not hide from it.
 </p>
  
  

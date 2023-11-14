@@ -15,14 +15,15 @@ export const Logo = () => (
 
 export const Title = () => (
   <a href="/">
-    <p className="font-medium font-serif text-[20px] md:text-xl lg:text-xl xl:text-2xl">
+    <div className="font-medium font-serif text-[20px] md:text-xl lg:text-xl xl:text-2xl">
       <h1>
         <span className="text-orange-500">Metadata</span>{" "}
         <span style={{ color: '#DB5800' }}>Integrated Solutions</span>
       </h1>
-    </p>
+    </div>
   </a>
 );
+
 
 export const HeaderComponent = () => {
   const handleScrollToSection = (sectionId, offset = 0) => {
@@ -46,16 +47,16 @@ export const HeaderComponent = () => {
         </div>
         <div className="flex flex-wrap">
           <ul className="flex">
-            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-2', 120)}>
+            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-2', 105)}>
               <Link to="/aboutus">About</Link>
             </li>
             <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-5',115)}>
               <Link to="/whoweare">Who We Are</Link>
             </li>
-            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-3' ,70)}>
+            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-3' ,110)}>
               <Link to="/services">Services</Link>
             </li>
-            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-4' ,120)}>
+            <li className="px-2 md:px-4 lg:px-6 xl:px-8 font-semibold text-orange-700 hover:text-red-400" onClick={() => handleScrollToSection('section-4' ,0)}>
               <Link to="/contactus">Contact us</Link>
             </li>
           </ul>

@@ -13,8 +13,8 @@ const AboutUs = () => {
               borderRadius: '10px',
             }}
           >
-            <h1 className="text-2xl md:text-4xl font-semibold pb-3 font-houschka-medium relative">
-              Welcome to MDIS
+            <h1 className="text-2xl md:text-3xl font-semibold pb-3 font-houschka-medium relative">
+              Welcome to  Metadata Integrated Solutions
               <div className="w-20 h-1 bg-orange-500 absolute bottom-0 left-1/2 transform -translate-x-1/2"></div>
             </h1>
 
