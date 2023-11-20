@@ -53,7 +53,7 @@ const Services = () => {
   return (
     <div id="section-3" className="service-container">
       <div className="flex items-center justify-center">
-        <h1 className="font-thin text-2xl md:text-5xl" style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
+        <h1 className="font-thin text-2xl md:text-5xl pb-3" style={{ textShadow: '2px 2px 4px rgba(255, 165, 0, 0.7)' }}>
           Our Services
         </h1>
       </div>

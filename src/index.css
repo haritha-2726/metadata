@@ -233,7 +233,7 @@ ul li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 .service-box {
@@ -241,6 +241,7 @@ ul li {
   cursor: pointer;
   width: 100%;
   border: none;
+  margin: 16px;
   transition: background 0.3s ease;
   display: flex;
   align-items: center;
@@ -281,11 +282,18 @@ ul li {
 
 .service-details {
   display: none;
+  overflow-y: auto;
 }
 
 .service-box:hover .service-details {
   display: block;
   padding: 0 16px;
   color:white
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust grid columns as needed */
+  gap: 20px; /* Add spacing between grid items */
+  /* Other styles for desktop view */
 }
  
